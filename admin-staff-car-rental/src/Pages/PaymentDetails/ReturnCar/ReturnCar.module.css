@@ -1,0 +1,102 @@
+.RC-main-container {
+    padding: 70px 120px;
+}
+
+.RC-insert-btn {
+    float: right;
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+    padding-right: 17px;
+    margin-left: 18px;
+}
+
+
+
+.RC-table-row th {
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial;
+    -webkit-user-select: none;
+    /* Safari */
+    -ms-user-select: none;
+    /* IE 10 and IE 11 */
+    user-select: none;
+    /* Standard syntax */
+}
+
+.RC-table-data-row td {
+    font-size: 1.1rem;
+}
+
+
+.RC-btn {
+    padding: 5px 13px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 13px;
+    color: white;
+}
+
+.RC-cp-btn {
+    background-color: #f8ae0f;
+}
+
+.RC-cp-btn:hover {
+    color: white;
+    background-color: #daa20b;
+}
+
+.RC-id-col {
+    width: 70px;
+}
+
+.RC-table-data-row td {
+    white-space: nowrap;
+    overflow: auto;
+}
+
+.RC-plus {
+    margin-right: 5px;
+}
+
+.RC-form-group {
+    margin-bottom: 10px;
+
+}
+
+.RC-sort {
+    all: unset;
+}
+
+.RC-table-row th {
+    cursor: pointer;
+}
+
+.RC-filter-container {
+    display: flex;
+    gap: 30px;
+    align-items: flex-end;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.RC-filter {
+    display: flex;
+    gap: 15px;
+    font-weight: 600;
+}
+
+
+.RC-filter {
+    display: flex;
+    gap: 15px;
+    font-weight: 600;
+}
+
+.RC-filter-select {
+    padding: 5px 0px;
+    border-radius: 3px;
+    width: 320px;
+}

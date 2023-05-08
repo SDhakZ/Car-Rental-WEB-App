@@ -1,0 +1,122 @@
+.SO-main-container {
+    padding: 70px 120px;
+}
+
+.SO-insert-btn {
+    float: right;
+    margin-bottom: 30px;
+    font-size: 1.4rem;
+    padding-right: 17px;
+    margin-left: 18px;
+}
+
+
+
+.SO-table-row th {
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial;
+    -webkit-user-select: none;
+    /* Safari */
+    -ms-user-select: none;
+    /* IE 10 and IE 11 */
+    user-select: none;
+    /* Standard syntax */
+}
+
+.SO-table-data-row td {
+    font-size: 1.1rem;
+}
+
+.SO-action-col {
+    width: 160px;
+}
+
+.SO-btn,
+.SO-cp-btn {
+    padding: 5px 13px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-left: 13px;
+    color: white;
+}
+
+.SO-cp-btn {
+    background-color: #ebb607;
+}
+
+.SO-cp-btn:hover {
+    background-color: #b68500;
+}
+
+.SO-id-col {
+    width: 70px;
+}
+
+.SO-table-data-row td:nth-child(2) {
+    max-width: 140px;
+}
+
+.SO-table-data-row td:nth-child(4) {
+    max-width: 180px;
+
+}
+
+.SO-table-data-row td:nth-child(5) {
+    width: 140px;
+}
+
+.SO-table-data-row td:nth-child(6) {
+    width: 170px;
+}
+
+
+.SO-table-data-row td:nth-child(7) {
+    width: 120px;
+}
+
+
+.SO-plus {
+    margin-right: 5px;
+}
+
+.SO-form-group {
+    margin-bottom: 10px;
+
+}
+
+.SO-sort {
+    all: unset;
+}
+
+.SO-table-row th {
+    cursor: pointer;
+}
+
+.SO-filter-container {
+    display: flex;
+    gap: 30px;
+    align-items: flex-end;
+    height: 40px;
+}
+
+.SO-filter {
+    display: flex;
+    gap: 15px;
+    font-weight: 600;
+}
+
+.SO-filter {
+    display: flex;
+    gap: 15px;
+    font-weight: 600;
+}
+
+.SO-filter-select {
+    padding: 5px 0px;
+    border-radius: 3px;
+    width: 320px;
+}

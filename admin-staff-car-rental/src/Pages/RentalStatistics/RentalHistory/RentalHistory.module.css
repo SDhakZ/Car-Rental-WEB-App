@@ -1,0 +1,129 @@
+.RH-main-container {
+    padding: 70px 120px;
+}
+
+.RH-insert-btn {
+    float: right;
+    margin-bottom: 30px;
+    font-size: 1.4rem;
+    padding-right: 17px;
+    margin-left: 18px;
+}
+
+
+
+.RH-table-row th {
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial;
+    -webkit-user-select: none;
+    /* Safari */
+    -ms-user-select: none;
+    /* IE 10 and IE 11 */
+    user-select: none;
+    /* Standard syntax */
+}
+
+.RH-table-data-row td {
+    font-size: 1.1rem;
+}
+
+.RH-action-col {
+    width: 160px;
+}
+
+.RH-btn,
+.RH-cp-btn {
+    padding: 5px 13px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-left: 13px;
+    color: white;
+}
+
+.RH-cp-btn {
+    background-color: #ebb607;
+}
+
+.RH-cp-btn:hover {
+    background-color: #b68500;
+}
+
+.RH-id-col {
+    width: 70px;
+}
+
+.RH-table-data-row td {
+    white-space: nowrap;
+    overflow: auto;
+}
+
+.RH-table-data-row td:nth-child(2) {
+    max-width: 140px;
+}
+
+.RH-table-data-row td:nth-child(4) {
+    max-width: 180px;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+.RH-table-data-row td:nth-child(5) {
+    width: 140px;
+}
+
+.RH-table-data-row td:nth-child(6) {
+    width: 170px;
+}
+
+
+.RH-table-data-row td:nth-child(7) {
+    width: 120px;
+}
+
+
+.RH-plus {
+    margin-right: 5px;
+}
+
+.RH-form-group {
+    margin-bottom: 10px;
+
+}
+
+.RH-sort {
+    all: unset;
+}
+
+.RH-table-row th {
+    cursor: pointer;
+}
+
+.RH-filter-container {
+    display: flex;
+    gap: 30px;
+    align-items: flex-end;
+    height: 40px;
+}
+
+.RH-filter {
+    display: flex;
+    gap: 15px;
+    font-weight: 600;
+}
+
+.RH-filter-container {
+    display: flex;
+    gap: 15px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.RH-filter-select {
+    padding: 5px 0px;
+    border-radius: 3px;
+    width: 320px;
+}

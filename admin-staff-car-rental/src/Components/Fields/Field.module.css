@@ -1,0 +1,149 @@
+.F-form {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  width: 100%;
+  padding: 5px 20px 20px;
+
+}
+
+.F-form-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  width: 100%;
+
+}
+
+.my-modal {
+  width: 4000px;
+}
+
+
+.F-validation {
+  color: red;
+  margin-bottom: 0;
+
+}
+
+.F-label {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.F-field-container {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.F-label-error {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.F-field,
+.F-textarea {
+  all: unset;
+  padding: 6px 10px;
+  outline: 2px solid #838383;
+  border-radius: 5px;
+  color: rgb(26, 26, 26);
+  font-size: 1rem;
+
+}
+
+.F-textarea {
+  word-wrap: break-word;
+  height: 119px;
+}
+
+.F-field:focus,
+.F-textarea:focus {
+  outline: 2px solid #007bff;
+}
+
+.F-main-uploadContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.F-btnimg-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.F-selectFile {
+  display: none;
+}
+
+.F-uploadImage {
+  all: unset;
+  padding: 8px 20px;
+  background-color: rgb(94, 212, 129);
+  cursor: pointer;
+  color: white;
+  border-radius: 5px;
+}
+
+.F-file-group {
+  float: right;
+}
+
+.F-file-name {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 170px;
+}
+
+.F-remove-file {
+  all: unset;
+  display: flex;
+  align-items: center;
+}
+
+.F-file-name {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+}
+
+.fileCross {
+  margin-top: 2px;
+  color: rgb(252, 68, 68);
+}
+
+.F-select {
+  cursor: pointer;
+  padding: 6px 10px;
+  outline: 1px solid #838383;
+  border-radius: 5px;
+  color: rgb(26, 26, 26);
+  font-size: 1rem;
+}
+
+.IM-image {
+  width: 100px;
+  max-height: 100px;
+}
+
+.PF-password-toggle {
+  position: absolute;
+  right: 8px;
+  top: 5px;
+  cursor: pointer;
+}
+
+.F-field-password {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}

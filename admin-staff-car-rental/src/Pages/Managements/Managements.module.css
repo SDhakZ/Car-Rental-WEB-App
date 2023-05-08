@@ -1,0 +1,12 @@
+.M-main-container {
+    padding: 60px 120px;
+}
+
+.M-secondary-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 100%;
+}

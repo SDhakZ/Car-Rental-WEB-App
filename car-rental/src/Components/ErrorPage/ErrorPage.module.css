@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+
+:root {
+  --EP-pd-container: 80px 0px; /* container padding */
+  --EP-fs-btn: 1.15rem; /* button font size */
+}
+
+.errorPage {
+  /* display and box model */
+  height: 61vh;
+  display: flex;
+  padding: var(--EP-pd-container);
+  /* positioning */
+  align-items: center;
+  justify-content: center;
+  /* other */
+}
+
+.ER-container {
+  /* display and box model */
+  padding: 80px;
+  border-radius: 10px;
+  backdrop-filter: blur(2px);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  /* positioning */
+  align-items: center;
+  justify-content: space-between;
+  /* other */
+  border: linear-gradient(
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0)
+    ),
+    linear-gradient(140deg, #12c2e9, #c471ed, #f64f59);
+    height: 400px;
+}
+
+.ER-errorCode {
+  /* display and box model */
+  -webkit-text-fill-color: transparent;
+  /* other */
+  background: -webkit-linear-gradient(150deg, #f50019, #ff029c);
+  background-clip: text;
+  font-size: 3.8rem;
+  letter-spacing: 0.075em;
+  text-transform: uppercase;
+}
+
+.ER-message {
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 35px;
+  text-align: center;
+}
+
+.ER-report {
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.ER-buttons {
+  /* display and box model */
+  gap: 80px;
+  display: flex;
+  flex-direction: row;
+}
+
+.ER-refreshButton,
+.ER-returnHomeButton {
+  /* display and box model */
+  border-radius: 35px;
+  padding: 15px 20px;
+  border: solid 2px transparent;
+  box-shadow: 2px 1000px 1px #fbfbfd inset;
+  /* other */
+  line-height: normal;
+  font-size: var(--EP-fs-btn);
+  font-weight: 700;
+  color: #2f2f2f;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0)
+    ),
+    linear-gradient(90deg, #62cff5, #c091fc);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  transition: all 0.4s ease;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.ER-refreshButton {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0)
+    ),
+    linear-gradient(300deg, #62f47d, #1fa92a);
+}
+
+.ER-refreshButton:hover,
+.ER-returnHomeButton:hover {
+  box-shadow: rgba(255, 255, 255, 0.25) 0px 13px 27px -5px,
+    rgba(49, 49, 49, 0.3) 0px 8px 16px -8px;
+  color: white;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0)
+    ),
+    linear-gradient(90deg, #62cff5, #c091fc);
+  transform: translateY(-2px);
+}
+
+.ER-color-refreshButton:hover {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0)
+    ),
+    linear-gradient(90deg, #62f478, rgb(31, 169, 65));
+  transform: translateY(-2px);
+}
+
+/* responsiveness settings */
+@media all and (max-width: 1200px) {
+  :root {
+    --EP-fs-btn: 1.1rem;
+  }
+}
+
+@media (max-width: 960px) {
+  :root {
+    --EP-fs-btn: 1rem;
+  }
+
+  .errorPage {
+    height: 63vh;
+  }
+
+  .ER-container {
+    padding: 70px;
+  }
+
+  .ER-refreshButton,
+  .ER-returnHomeButton {
+    padding: 8px 17px;
+  }
+
+  .ER-buttons {
+    gap: 14px;
+  }
+}
+
+@media (max-width: 800px) {
+  .errorPage {
+    height: 71vh;
+  }
+
+  .ER-container {
+    line-height: 65px;
+    padding: 55px;
+  }
+
+  .ER-errorCode {
+    font-size: 3rem;
+    letter-spacing: 0.04em;
+    margin-bottom: 15px;
+  }
+
+  .ER-message {
+    font-size: 1.2rem;
+    line-height: 30px;
+  }
+
+  .ER-report {
+    margin-top: 10px;
+  }
+  .ER-buttons {
+    gap: 12px;
+  }
+}
+
+@media (max-width: 600px) {
+  :root {
+    --EP-fs-btn: 1.15rem;
+  }
+
+  .ER-container {
+    line-height: 60px;
+    padding: 30px;
+  }
+
+  .ER-errorCode {
+    font-size: 3rem;
+    letter-spacing: 0.04em;
+    margin-bottom: 15px;
+  }
+
+  .ER-message {
+    font-size: 1.1rem;
+    line-height: 25px;
+  }
+
+  .ER-report {
+    margin-top: 7px;
+  }
+
+  .ER-buttons {
+    flex-direction: column;
+    gap: 14px;
+  }
+}
+
+@media (max-width: 464px) {
+  .ER-container {
+    border-radius: 0px;
+  }
+}
+
+@media (max-width: 400px) {
+  :root {
+    --EP-fs-btn: 1rem;
+  }
+
+  .ER-errorCode {
+    font-size: 2.5rem;
+  }
+}

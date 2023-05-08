@@ -1,0 +1,36 @@
+.DRM-title{
+    background-color: #e32222;
+    font-size: 1.8rem;
+    color: white;
+    font-weight: 700;
+    width: 100%;
+    padding: 10px 20px;
+    overflow: hidden;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.DRM-form{
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 435px;
+}
+.DRM-image-cardetail{
+    display: flex;
+    gap:20px
+}
+.DRM-image{
+    height: 200px;
+}
+
+.DRM-name{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.DRM-brand{
+    color: rgb(136, 136, 136);
+    font-weight: 600;
+    font-size: 1.2rem;
+}

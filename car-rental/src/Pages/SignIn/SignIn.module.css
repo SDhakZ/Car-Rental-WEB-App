@@ -1,0 +1,325 @@
+.clearfix:after {
+  clear: both;
+  display: block;
+}
+.USI-main-container {
+  height: 100%;
+  min-height: 120vh;
+  position: relative;
+  background-color: #e8f1f5;
+}
+
+.USI-img {
+  position: absolute;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  opacity: 1; /* set initial opacity to 1 */
+  transition: opacity 1s ease-in-out; /* transition opacity only */
+}
+
+.USI-img2 {
+  position: absolute;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  opacity: 0; /* set initial opacity to 0 */
+  transition: opacity 1s ease-in-out; /* transition opacity only */
+  transition-delay: 0.3s;
+}
+
+.USI-img-active {
+  opacity: 1;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.USI-secondary-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.USI-login-html {
+  margin-top: 70px;
+  width: 100%;
+  max-width: 500px;
+  z-index: 1;
+}
+
+.USI-login-htm,
+.USI-register-htm {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+  transition: all 0.4s linear;
+}
+
+.USI-login,
+/*.login-form .group .check*/
+.USI-register {
+  display: none;
+}
+
+.USI-tab {
+  font-size: 21px;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+  margin: 0 30px 30px 0;
+  display: inline-block;
+  border-bottom: 3px solid transparent;
+  color: #797979;
+  cursor: pointer;
+}
+
+.USI-login:checked + .USI-tab,
+.USI-register:checked + .USI-tab {
+  color: #464646;
+  border-color: #2c91ef;
+}
+
+.USI-login-form {
+  perspective: 1000px;
+  transform-style: preserve-3d;
+}
+
+.USI-group {
+  margin-bottom: 32px;
+}
+.USI-addGroup, .USI-addGroup-radio {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  font-weight: 700;
+  color: #464646;
+  align-items: center;
+}
+
+.USI-addGroup-radio{
+  margin-bottom: 10px;
+}
+
+.USI-login-form .USI-group .USI-label,
+.USI-login-form .USI-group .USI-input,
+.USI-button {
+  width: 100%;
+  display: block;
+}
+
+.USI-input:-webkit-autofill,
+.USI-input:-webkit-autofill:hover,
+.USI-input:-webkit-autofill:focus,
+.USI-input:-webkit-autofill:active {
+  transition: background-color 5000s;
+  -webkit-text-fill-color: #000000 !important;
+}
+
+.USI-label {
+  color: #464646;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.USI-login-form .USI-group .USI-input {
+  padding: 10px 8px;
+  font-size: 16px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 3px solid #464646;
+  outline: none;
+}
+
+.USI-input::placeholder{
+  font-size: 1rem;
+  font-family: "Segoe UI", "Helvetica Neue", Helvetica, A;
+}
+
+.USI-button {
+  padding: 12px 17px;
+  font-weight: 600;
+  font-size: 23px;
+  color: #ffffff;
+  border: none;
+  background: #529de2;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.3s;
+}
+
+.USI-button:hover {
+  background-color: #75b7f6;
+}
+
+.USI-button:active {
+  background-color: rgb(87, 140, 187);
+}
+
+.USI-login-html
+  .USI-login:checked
+  + .USI-tab
+  + .USI-register
+  + .USI-tab
+  + .USI-login-form
+  .USI-login-htm {
+  transform: rotate(0);
+}
+
+.USI-login-html
+  .USI-register:checked
+  + .USI-tab
+  + .USI-login-form
+  .USI-register-htm {
+  transform: rotate(0);
+}
+
+.USI-forgot {
+  text-align: center;
+  color: #464646;
+}
+
+
+.USI-uploadImage {
+  all: unset;
+  padding: 10px 20px;
+  background-color: rgb(94, 212, 129);
+  cursor: pointer;
+  color: white;
+  border-radius: 5px;
+}
+.USI-password {
+  position: relative;
+}
+.USI-password-toggle {
+  position: absolute;
+  right: 0;
+  top: 10px;
+}
+.USI-error {
+  color: red;
+}
+
+/* --------------------Loading----------------------- */
+.USI-loading {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 26px;
+}
+.USI-loading div {
+  position: absolute;
+  top: 13px;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: #fff;
+  animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+.USI-loading div:nth-child(1) {
+  left: 8px;
+  animation: USI-loading1 0.6s infinite;
+}
+.USI-loading div:nth-child(2) {
+  left: 8px;
+  animation: USI-loading2 0.6s infinite;
+}
+.USI-loading div:nth-child(3) {
+  left: 32px;
+  animation: USI-loading2 0.6s infinite;
+}
+.USI-loading div:nth-child(4) {
+  left: 56px;
+  animation: USI-loading3 0.6s infinite;
+}
+@keyframes USI-loading1 {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes USI-loading3 {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+@keyframes USI-loading2 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(24px, 0);
+  }
+}
+
+.USI-selectFile {
+  display: none;
+}
+
+
+.USI-radio-file{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.USI-radio-group{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+}
+
+.USI-radio{
+ display: flex;
+ align-items: center;
+ cursor: pointer;
+}
+
+.USI-radio-group label{
+  margin-right: 10px;
+}
+
+.USI-file-name{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 200px;
+}
+
+.USI-remove-file{
+all: unset;
+display: flex;
+ align-items: center;
+}
+
+.USI-file-group{
+  display: flex;
+  align-items: center;
+  gap:5px;
+
+}
+
+.fileCross{
+  margin-top: 2px;
+  color: rgb(252, 68, 68);
+}
+
+.USI-label span{
+  color: #535353;
+  font-weight: 500;
+}

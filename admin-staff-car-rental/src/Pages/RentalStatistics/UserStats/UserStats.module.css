@@ -1,0 +1,76 @@
+.US-main-container {
+    padding: 70px 120px;
+}
+
+.US-insert-btn {
+    float: right;
+    margin-bottom: 30px;
+    font-size: 1.4rem;
+    padding-right: 17px;
+    margin-left: 18px;
+}
+
+
+.US-table-row th {
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial;
+    -webkit-user-select: none;
+    /* Safari */
+    -ms-user-select: none;
+    /* IE 10 and IE 11 */
+    user-select: none;
+    /* Standard syntax */
+}
+
+.US-table-data-row td {
+    font-size: 1.1rem;
+}
+
+
+.US-cp-btn {
+    background-color: #ebb607;
+}
+
+.US-cp-btn:hover {
+    background-color: #b68500;
+}
+
+.US-id-col {
+    width: 70px;
+}
+
+.US-table-data-row td {
+    white-space: nowrap;
+    overflow: auto;
+}
+
+
+.US-plus {
+    margin-right: 5px;
+}
+
+.US-form-group {
+    margin-bottom: 10px;
+
+}
+
+
+.US-table-row th {
+    cursor: pointer;
+}
+
+.US-filter-container {
+    display: flex;
+    gap: 30px;
+    align-items: flex-end;
+    height: 40px;
+    margin-bottom: 30px;
+}
+
+
+.US-filter-select {
+    padding: 5px 0px;
+    border-radius: 3px;
+    width: 320px;
+}

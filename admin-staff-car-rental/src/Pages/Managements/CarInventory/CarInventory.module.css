@@ -1,0 +1,109 @@
+.CM-main-container {
+    padding: 70px 120px;
+}
+
+.CM-insert-btn {
+    float: right;
+    margin-bottom: 30px;
+    font-size: 1.4rem;
+    padding-right: 17px;
+}
+
+
+
+.CM-table-row th {
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial;
+    -webkit-user-select: none;
+    /* Safari */
+    -ms-user-select: none;
+    /* IE 10 and IE 11 */
+    user-select: none;
+    /* Standard syntax */
+}
+
+.CM-table-data-row td {
+    font-size: 1.1rem;
+}
+
+.CM-action-col {
+    width: 250px;
+}
+
+.CM-btn {
+    padding: 5px 15px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.CM-reset {
+    all: unset;
+    cursor: pointer;
+    padding: 6px 16px;
+    border-radius: 5px;
+    background-color: rgb(252, 162, 45);
+    border: 1px solid #858483;
+    color: aliceblue;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.CM-reset:hover {
+    background-color: rgb(221, 124, 5);
+}
+
+.CM-plus {
+    margin-right: 5px;
+}
+
+.CM-form-group {
+    margin-bottom: 10px;
+    ;
+}
+
+.CM-sort {
+    all: unset;
+}
+
+.CM-table-row th {
+    cursor: pointer;
+}
+
+.CM-filter-container {
+    display: flex;
+    gap: 30px;
+    align-items: flex-end;
+    height: 40px;
+}
+
+.CM-filter {
+    display: flex;
+    gap: 15px;
+    font-weight: 600;
+}
+
+.CM-dropdown {
+    cursor: pointer;
+    border: 1px solid #ccc;
+    padding: 8px 10px;
+    border-radius: 5px;
+
+}
+
+.CM-filter {
+    display: flex;
+    gap: 15px;
+    font-weight: 600;
+    align-items: center;
+}
+
+.CM-filter-select {
+    padding: 5px 0px;
+    border-radius: 3px;
+    width: 320px;
+}

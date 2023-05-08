@@ -1,0 +1,96 @@
+.PR-main-container {
+    position: relative;
+    padding: 80px 135px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 800px;
+}
+
+.PR-secondary-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    gap: 30px;
+}
+
+.PR-individual-container {
+    position: relative;
+    font-family: 'Inter';
+    display: flex;
+    height: 149px;
+    box-shadow: 0px 1px 6px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    width: 100%;
+    justify-content: space-between;
+    overflow: hidden;
+    transition: all .3s linear;
+}
+
+.PR-individual-container:hover {
+    box-shadow: 0px 1px 6px 3px rgba(19, 90, 232, 0.359);
+}
+
+.PR-image-detail {
+    display: flex;
+    gap: 30px;
+}
+
+.PR-image {
+    width: 250px;
+    object-fit: cover;
+
+
+}
+
+.PR-details {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.1rem;
+    font-weight: 600;
+    justify-content: space-between;
+    padding: 10px 0px 15px;
+}
+
+.PR-name-brand {
+    display: flex;
+    gap: 10px;
+    align-items: baseline;
+}
+
+.PR-name {
+    font-size: 1.7rem;
+}
+
+.PR-brand {
+    color: rgb(104, 104, 104);
+}
+
+.PR-dates {
+    display: flex;
+    gap: 100px;
+}
+
+.PR-cost span {
+    color: #10c300;
+    font-size: 1.3rem;
+}
+
+.PR-button {
+    all: unset;
+    background-color: #F74E4E;
+    padding: 0px 20px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: white;
+    width: 130px;
+    text-align: center;
+    transition: all .3s linear;
+}
+
+.PR-button:hover {
+    background-color: #d70e0e;
+}

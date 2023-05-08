@@ -1,0 +1,168 @@
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rspin {
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+.center {
+  /* Display & Box Model */
+  height: 800px;
+  display: flex;
+  /* Positioning */
+  align-items: center;
+  justify-content: center;
+}
+
+.loader {
+  /* Positioning */
+  position: relative;
+  /* Display & Box Model */
+  height: 150px;
+  width: 150px;
+  overflow: hidden;
+  /* Other */
+  background-color: #eee;
+  border-radius: 100%;
+}
+
+.spin {
+  /* Other */
+  animation: spin 750ms infinite linear;
+}
+
+.rspin {
+  /* Other */
+  animation: rspin 2250ms infinite linear;
+}
+
+.c {
+  /* Positioning */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  /* Display & Box Model */
+  margin: -34% 0 0 -34%;
+  width: 68%;
+  height: 68%;
+  /* Other */
+  background-color: #fff;
+  border-radius: 100%;
+  z-index: 3;
+}
+
+.d {
+  /* Positioning */
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.e {
+  /* Positioning */
+  position: absolute;
+  top: 1%;
+  left: 50%;
+  /* Display & Box Model */
+  margin: 0 0 0 -7.5px;
+  height: 21px;
+  width: 22px;
+  transform: rotate(10deg) skew(20deg);
+  /* Other */
+  border-radius: 3px;
+  background: rgb(0, 2, 110);
+}
+
+.r {
+  /* Positioning */
+  z-index: 2;
+  position: absolute;
+  left: 50%;
+  top: -1px;
+  bottom: -1px;
+  /* Display & Box Model */
+  margin-left: -3.75px;
+  width: 7.5px;
+  /* Other */
+  background-color: #fff;
+}
+
+.r1 {
+  /* Display & Box Model */
+  transform: rotate(0deg);
+}
+
+.r2 {
+  /* Display & Box Model */
+  transform: rotate(45deg);
+}
+
+.r3 {
+  /* Display & Box Model */
+  transform: rotate(90deg);
+}
+
+.r4 {
+  /* Display & Box Model */
+  transform: rotate(135deg);
+}
+
+/*=============================*
+        /* RESPONSIVE */
+/*=============================*/
+@media (max-width: 1024px) {
+  .loader {
+    /* Display & Box Model */
+    height: 110px;
+    width: 110px;
+  }
+  .center {
+    /* Display & Box Model */
+    height: 550px;
+  }
+  .e {
+    /* Display & Box Model */
+    height: 17px;
+    width: 18px;
+  }
+}
+
+@media (max-width: 769px) {
+  .loader {
+    /* Display & Box Model */
+    height: 100px;
+    width: 100px;
+  }
+  .center {
+    /* Display & Box Model */
+    height: 470px;
+  }
+  .e {
+    /* Display & Box Model */
+    height: 16px;
+    width: 17px;
+  }
+}
+@media (max-width: 480px) {
+  .loader {
+    /* Display & Box Model */
+    height: 80px;
+    width: 80px;
+  }
+  .center {
+    /* Display & Box Model */
+    height: 450px;
+  }
+  .e {
+    /* Display & Box Model */
+    height: 14px;
+    width: 15px;
+  }
+}

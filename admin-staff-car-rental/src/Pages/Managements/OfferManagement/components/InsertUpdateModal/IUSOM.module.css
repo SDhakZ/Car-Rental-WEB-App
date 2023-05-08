@@ -1,0 +1,130 @@
+.IMSO-form {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  width: 100%;
+  padding: 5px 20px 20px;
+
+}
+
+.IMSO-form-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  width: 100%;
+
+}
+
+.my-modal {
+  width: 4000px;
+}
+
+
+.IMSO-validation {
+  color: red;
+  margin-bottom: 0;
+
+}
+
+.IMSO-label {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.IMSO-field-container {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.IMSO-label-error {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.IMSO-field,
+.IMSO-textarea {
+  all: unset;
+  padding: 6px 10px;
+  outline: 2px solid #838383;
+  border-radius: 5px;
+  color: rgb(26, 26, 26);
+  font-size: 1rem;
+
+}
+
+.IMSO-textarea {
+  word-wrap: break-word;
+  height: 119px;
+}
+
+.IMSO-field:focus,
+.IMSO-textarea:focus {
+  outline: 2px solid #007bff;
+}
+
+.IMSO-main-uploadContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.IMSO-btnimg-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.IMSO-selectFile {
+  display: none;
+}
+
+.IMSO-uploadImage {
+  all: unset;
+  padding: 8px 20px;
+  background-color: rgb(94, 212, 129);
+  cursor: pointer;
+  color: white;
+  border-radius: 5px;
+}
+
+.IMSO-file-group {
+  float: right;
+}
+
+.IMSO-file-name {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 170px;
+}
+
+.IMSO-remove-file {
+  all: unset;
+  display: flex;
+  align-items: center;
+}
+
+.IMSO-file-name {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+}
+
+.fileCross {
+  margin-top: 2px;
+  color: rgb(252, 68, 68);
+}
+
+.IMSO-select {
+  cursor: pointer;
+  padding: 6px 10px;
+  outline: 1px solid #838383;
+  border-radius: 5px;
+  color: rgb(26, 26, 26);
+  font-size: 1rem;
+}

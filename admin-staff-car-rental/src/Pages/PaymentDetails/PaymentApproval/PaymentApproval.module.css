@@ -1,0 +1,115 @@
+.PA-main-container {
+    padding: 70px 120px;
+}
+
+.PA-table-row th {
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial;
+    -webkit-user-select: none;
+    /* Safari */
+    -ms-user-select: none;
+    /* IE 10 and IE 11 */
+    user-select: none;
+    /* Standard syntax */
+}
+
+.PA-table-data-row td {
+    font-size: 1.1rem;
+}
+
+.PA-action-col {
+    width: 160px;
+}
+
+.PA-btn,
+.PA-cp-btn {
+    padding: 5px 13px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.PA-cp-btn {
+    background-color: #ebb607;
+}
+
+.PA-cp-btn:hover {
+    background-color: #b68500;
+}
+
+.PA-id-col {
+    width: 70px;
+}
+
+.PA-table-data-row td {
+    white-space: nowrap;
+    overflow: auto;
+}
+
+
+.PA-plus {
+    margin-right: 5px;
+}
+
+.PA-form-group {
+    margin-bottom: 10px;
+
+}
+
+.PA-sort {
+    all: unset;
+}
+
+.PA-table-row th {
+    cursor: pointer;
+}
+
+.PA-filter-container {
+    display: flex;
+    gap: 30px;
+    align-items: flex-end;
+    height: 40px;
+}
+
+.PA-filter {
+    display: flex;
+    gap: 15px;
+    font-weight: 600;
+}
+
+
+.PA-admin-row td {
+    color: rgb(146, 146, 146) !important;
+}
+
+.PA-btn:disabled,
+.PA-cp-btn:disabled {
+    background-color: #919191;
+    cursor: not-allowed;
+    pointer-events: all !important;
+}
+
+.PA-filter-container {
+    display: flex;
+    gap: 15px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.PA-filter-select {
+    padding: 5px 0px;
+    border-radius: 3px;
+    width: 320px;
+}
+
+.PA-insert-btn {
+    float: right;
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+    padding-right: 17px;
+    margin-left: 18px;
+}

@@ -1,0 +1,134 @@
+.NB-box{
+    position:absolute;
+    top:4.4rem;
+    right:3rem;
+    width: 400px;
+    height: 700px;
+    border-radius: 10px;
+    background-color:white;
+    border: 1px solid gray;
+    padding-top: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.NB-box::before{
+    content: '';
+    position: absolute;
+    top: -.7rem;
+    right: 5.7rem;
+    width: 18px;
+    height: 18px;
+    background-color: white;
+    transform: rotate(45deg);
+    flex-direction: column;
+    border-left: 1px solid gray;
+    border-top: 1px solid gray;
+}
+.NB-topic{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding: 7px 30px;
+}
+.NB-title{
+    all:unset;
+}
+.NB-title:hover{
+    color:rgb(45, 120, 248);
+}
+.NB-title:focus{
+    color: rgb(20, 90, 209);
+}
+.NB-title-active{
+    color:rgb(20, 90, 209);
+}
+.NB-line{
+    margin: 10px 0;
+    border: 1px solid #DCDCDC;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+}
+.NB-box-contents{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-left: 0px;
+    height: 620px;
+    overflow-y: auto;
+}
+
+.NB-box-contents::-webkit-scrollbar-track {
+    border-radius: 6px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #fefefe;
+  }
+  
+  .NB-box-contents::-webkit-scrollbar {
+    border-radius: 6px;
+    width: 10px;
+    background-color: #f5f5f5;
+  }
+  
+  .NB-box-contents::-webkit-scrollbar-thumb {
+    border-radius: 6px;
+    background-image: -webkit-gradient(
+      linear,
+      color-stop(0.86, rgb(0, 153, 255))
+    );
+  }
+
+.NB-individual{
+    position: relative;
+    width: 100%;
+    background-color: rgb(217, 244, 255);
+    padding: 10px;
+    border-radius: 3px;
+}
+.NB-title-discount{
+    display: flex;
+    justify-content: space-between;
+}
+.NB-individual-title{
+    position: relative;
+    word-wrap: break-word;
+    font-weight: 800;
+}
+.NB-individual-discount{
+    border: rgb(19, 182, 19) 1px solid;
+    color:rgb(19, 182, 19);
+    padding: 2px 7px;
+    font-size: .8rem;
+}
+.NB-individual-message{
+    position: relative;
+    word-wrap: break-word;
+    text-align: justify;
+    width: 100%;
+}
+.NB-individual-date{
+    float: right;
+    text-decoration: italic;
+}
+.NB-individual-amount{
+color: rgb(53, 53, 53);
+font-weight: 600;
+}
+
+.NB-individual-amount span{
+    color: rgb(15, 148, 15);
+}
+.NB-referesh-container{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.refresh{
+    display: block;
+    font-size: 5rem;
+    color: rgb(0, 149, 255);
+}
+
+.NB-khalti-button{
+    float: right;
+}

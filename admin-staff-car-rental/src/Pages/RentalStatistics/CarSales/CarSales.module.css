@@ -1,0 +1,166 @@
+.RH-main-container {
+    padding: 70px 120px;
+}
+
+.RH-insert-btn {
+    float: right;
+    margin-bottom: 30px;
+    font-size: 1.4rem;
+    padding-right: 17px;
+    margin-left: 18px;
+}
+
+
+
+.RH-table-row th {
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial;
+    -webkit-user-select: none;
+    /* Safari */
+    -ms-user-select: none;
+    /* IE 10 and IE 11 */
+    user-select: none;
+    /* Standard syntax */
+}
+
+.RH-table-data-row td {
+    font-size: 1.1rem;
+}
+
+.RH-action-col {
+    width: 160px;
+}
+
+.RH-btn,
+.RH-cp-btn {
+    padding: 5px 13px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-left: 13px;
+    color: white;
+}
+
+.RH-cp-btn {
+    background-color: #ebb607;
+}
+
+.RH-cp-btn:hover {
+    background-color: #b68500;
+}
+
+.RH-id-col {
+    width: 70px;
+}
+
+.RH-table-data-row td {
+    white-space: nowrap;
+    overflow: auto;
+}
+
+
+.RH-plus {
+    margin-right: 5px;
+}
+
+.RH-form-group {
+    margin-bottom: 10px;
+
+}
+
+.RH-sort {
+    all: unset;
+}
+
+.RH-table {
+    margin-top: 20px;
+}
+
+.RH-table-row th {
+    cursor: pointer;
+}
+
+.RH-filter-container {
+    display: flex;
+    gap: 25px;
+    font-weight: 600;
+
+    height: 45px;
+    align-items: center;
+}
+
+.RH-filter-select {
+    padding: 5px 0px;
+    border-radius: 3px;
+    width: 320px;
+}
+
+.RH-date-container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+
+.RH-date-container label {
+    white-space: nowrap;
+}
+
+.RH-date {
+    border: 1px solid #cacaca;
+    padding: 6px 10px;
+    border-radius: 4px;
+    transition: all 0.5s;
+
+}
+
+.RH-date:focus {
+    outline: 1px solid #0067ee;
+    border: 1px solid #0067ee;
+}
+
+.RH-filter-button,
+.RH-reset-button {
+    all: unset;
+    cursor: pointer;
+    padding: 7px 10px;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+.RH-filter-button {
+    border: 1px solid #0067ee;
+    background-color: #0067ee;
+    color: white;
+}
+
+.RH-filter-button:hover {
+    background-color: #0067ee00;
+    color: #0067ee;
+    border: 1px solid #0067ee;
+}
+
+.RH-reset-button {
+    background-color: orange;
+    border: 1px solid orange;
+    color: rgb(255, 255, 255);
+}
+
+.RH-reset-button:hover {
+    background-color: #0067ee00;
+    border: 1px solid orange;
+    color: orange;
+}
+
+.RH-dash {
+    border-bottom: 3px dashed #53739b;
+    padding-bottom: 13px;
+    max-width: 1225px;
+}
+
+.RH-main-container h3 {
+    color: #537197;
+}

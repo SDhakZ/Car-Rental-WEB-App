@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Meera+Inimai&display=swap');
+
+.LP-main-container {
+  padding-top: 50px;
+  padding-bottom: 150px;
+  width: 100%;
+}
+
+.LP-secondary-container {
+  position: relative;
+  width: 100%;
+}
+
+.LP-section1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 700px;
+}
+
+.LP-phrase {
+  position: absolute;
+  left: 135px;
+  display: flex;
+  flex-direction: column;
+  font-size: 3.2rem;
+  font-weight: 1000;
+  width: 28%;
+}
+
+.LP-phrase span {
+  font-size: 4rem;
+  /* Display & Box Model */
+  --bg-size: 300%;
+  /* Other */
+  --color-one: rgb(44, 102, 239);
+  --color-two: rgb(3, 32, 163);
+  --color-two: rgb(0, 16, 87);
+  background: linear-gradient(90deg,
+      var(--color-one),
+      var(--color-two),
+      var(--color-one)) 0 0 / var(--bg-size) 100%;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: move-bg 12s infinite linear;
+}
+
+@keyframes move-bg {
+  to {
+    background-position: var(--bg-size) 0;
+  }
+}
+
+.LP-image-container {
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.LP-image {
+  float: right;
+  width: 70%;
+}
+
+.LP-section2 {
+  position: relative;
+  padding: 0px 135px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+  margin-top: 100px;
+  height: 700px;
+  overflow: hidden;
+}
+
+.LP-car {
+  position: absolute;
+  top: 150px;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  opacity: 40%;
+  animation: leftright 5s linear infinite;
+}
+
+@keyframes leftright {
+  0% {
+    transform: translateX(-1200px)
+  }
+
+  100% {
+    transform: translateX(2000px)
+  }
+}
+
+.LP-wheel1 {
+  position: absolute;
+  z-index: 2;
+  top: 189px;
+  left: 136px;
+  width: 170px;
+  animation: animName 2s linear infinite;
+}
+
+.LP-wheel2 {
+  position: absolute;
+  z-index: 2;
+  top: 189px;
+  left: 768px;
+  width: 170px;
+  animation: animName 2s linear infinite;
+}
+
+.LP-body {
+  position: absolute;
+  top: 20px;
+  left: 0px;
+  width: 1000px;
+}
+
+@keyframes animName {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+.LP-headings {
+  position: relative;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.LP-heading {
+  font-family: 'Meera Inimai';
+  font-size: 3.3rem;
+  font-weight: 700;
+}
+
+.LP-subHeading {
+  font-size: 2.7rem;
+  font-weight: 600;
+  color: rgb(93, 93, 93);
+}
+
+.LP-features {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.LP-individual-features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.LP-text {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #2C91EF;
+  /* Display & Box Model */
+  --bg-size: 300%;
+  /* Other */
+  --color-one: rgb(40, 75, 157);
+  --color-two: rgb(45, 156, 204);
+  background: linear-gradient(90deg,
+      var(--color-one),
+      var(--color-two),
+      var(--color-one)) 0 0 / var(--bg-size) 100%;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: move-bg 12s infinite linear;
+}
+
+@keyframes move-bg {
+  to {
+    background-position: var(--bg-size) 0;
+  }
+}
+
+.LP-icons {
+  z-index: 3;
+  width: 60%;
+}
+
+.LP-iconsCost {
+  position: relative;
+  width: 60%;
+  z-index: 0;
+}
+
+.LP-section3 {
+  padding: 0px 135px;
+  padding-top: 90px;
+  height: 700px;
+}
+
+.VC-no-car {
+  grid-column: 3 / span 4; 
+  grid-row: 1 / span 1;
+  font-size: 4rem;
+  font-weight: 500;
+  color: #6d6d6d;
+}

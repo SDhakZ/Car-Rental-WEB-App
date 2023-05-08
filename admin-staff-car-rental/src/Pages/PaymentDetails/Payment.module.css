@@ -1,0 +1,13 @@
+.P-main-container {
+    padding: 60px 120px;
+}
+
+.P-secondary-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 100%;
+    margin-top: 30px;
+}

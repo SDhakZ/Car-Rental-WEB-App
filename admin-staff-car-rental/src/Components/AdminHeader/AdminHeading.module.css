@@ -1,0 +1,51 @@
+.page-heading {
+    /* Display & Box Model */
+    margin-bottom: 56px;
+    /* Positioning */
+    text-align: center;
+    /* Other */
+    font-family: "Montserrat";
+    font-size: clamp(1.5rem, 4vw + 1rem, 3.9rem);
+    color: #313131;
+    font-weight: 600;
+  }
+  
+  @media (max-width: 1400px) {
+    .page-heading {
+      /* Display & Box Model */
+      margin-bottom: 40px;
+    }
+  }
+  
+  @media (max-width: 1200px) {
+    .page-heading {
+      /* Display & Box Model */
+      margin-bottom: 36px;
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    .page-heading {
+      /* Display & Box Model */
+      margin-bottom: 30px;
+    }
+  }
+  
+  @media (max-width: 769px) {
+    .page-heading {
+      /* Display & Box Model */
+      margin-bottom: 28px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .page-heading {
+      /* Display & Box Model */
+      margin-bottom: 22px;
+    }
+    .page-heading {
+      /* Other */
+      font-size: clamp(1.1rem, 4vw + 1rem, 1.8rem);
+    }
+  }
+  

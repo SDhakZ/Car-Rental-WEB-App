@@ -1,0 +1,126 @@
+.UPM-title {
+  background-color: #109FDC;
+  font-size: 1.8rem;
+  color: white;
+  font-weight: 700;
+  width: 100%;
+  padding: 10px 20px;
+  overflow: hidden;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.UPM-form {
+  padding: 0px 20px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 120px;
+}
+
+.UPM-addGroup-radio {
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+  color: #464646;
+  gap: 10px;
+}
+
+.UPM-error-upload {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.UPM-uploadImage {
+  all: unset;
+  padding: 10px 20px;
+  background-color: rgb(94, 212, 129);
+  cursor: pointer;
+  color: white;
+  border-radius: 5px;
+}
+
+.UPM-selectFile {
+  display: none;
+}
+
+.UPM-radio-file {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.UPM-radio-group {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+}
+
+.UPM-radio {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.UPM-radio-group label {
+  margin-right: 10px;
+}
+
+.UPM-file-group {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+}
+
+.UPM-remove-file {
+  all: unset;
+  display: flex;
+  align-items: center;
+}
+
+.UPM-remove-file i {
+  color: red;
+}
+
+.UPM-file-name {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 200px;
+}
+
+.UPM-alt-modal {
+  display: flex;
+  flex-direction: column;
+  min-height: fit-content;
+  gap: 10px;
+}
+
+.UPM-alt-modal p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #464646;
+  padding: 25px 30px;
+  line-height: 33px;
+}
+
+.UPM-signin-button {
+  font-size: 1.2rem;
+  background-color: #109FDC;
+  color: white;
+  padding: 3px 10px;
+  border-radius: 5px;
+}
+
+.UPM-error {
+  color: rgb(255, 29, 29);
+}
+
+.UPM-validation {
+  color: rgb(255, 29, 29);
+}

@@ -1,0 +1,163 @@
+.UM-main-container {
+    padding: 70px 120px;
+}
+
+.UM-insert-btn {
+    float: right;
+    margin-bottom: 30px;
+    font-size: 1.4rem;
+    padding-right: 17px;
+}
+
+
+
+.UM-table-row th {
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial;
+    -webkit-user-select: none;
+    /* Safari */
+    -ms-user-select: none;
+    /* IE 10 and IE 11 */
+    user-select: none;
+    /* Standard syntax */
+}
+
+.UM-table-data-row td {
+    font-size: 1.1rem;
+}
+
+.UM-action-col {
+
+    width: 240px;
+}
+
+.UM-btn,
+.UM-cp-btn {
+    padding: 5px 13px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-left: 13px;
+    color: white;
+}
+
+.UM-cp-btn {
+    background-color: #ebb607;
+}
+
+.UM-cp-btn:hover {
+    background-color: #b68500;
+}
+
+.UM-id-col {
+    width: 70px;
+}
+
+.UM-table-data-row td {
+    white-space: nowrap;
+    overflow: auto;
+}
+
+.UM-table-data-row td:nth-child(2) {
+    max-width: 140px;
+}
+
+.UM-table-data-row td:nth-child(4) {
+    width: 130px;
+}
+
+.UM-table-data-row td:nth-child(6) {
+    width: 170px;
+}
+
+
+.UM-table-data-row td:nth-child(7) {
+    width: 120px;
+}
+
+
+.UM-plus {
+    margin-right: 5px;
+}
+
+.UM-form-group {
+    margin-bottom: 10px;
+
+}
+
+.UM-sort {
+    all: unset;
+}
+
+.UM-table-row th {
+    cursor: pointer;
+}
+
+.UM-filter-container {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    height: 40px;
+}
+
+
+.UM-filter {
+    display: flex;
+    gap: 15px;
+    font-weight: 600;
+}
+
+.UM-dropdown {
+    cursor: pointer;
+    border: 1px solid #ccc;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+
+/* .UM-search::placeholder {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    color: #aaa;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.UM-search {
+    all: unset;
+    outline: 1px solid #818181;
+    padding: 3px 10px;
+    border-radius: 3px;
+    width: 200px;
+}
+ */
+.UM-filter {
+    display: flex;
+    gap: 15px;
+    font-weight: 600;
+}
+
+.UM-filter-select {
+    padding: 5px 0px;
+    border-radius: 3px;
+    width: 320px;
+
+}
+
+.UM-search:focus {
+    outline: 1px solid #00aab6;
+}
+
+
+.UM-admin-row td {
+    color: rgb(146, 146, 146) !important;
+}
+
+.UM-btn:disabled,
+.UM-cp-btn:disabled {
+    background-color: #919191;
+    cursor: not-allowed;
+    pointer-events: all !important;
+}

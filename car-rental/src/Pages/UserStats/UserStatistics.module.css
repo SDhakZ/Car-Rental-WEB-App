@@ -1,0 +1,147 @@
+.US-main-container {
+  padding: 60px 120px;
+}
+
+.US-secondary-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.US-description-icon {
+  display: flex;
+  min-height: 19rem;
+  min-width: 550px;
+  background-color: #cdebfd;
+  border-radius: 7px;
+  padding: 60px 30px;
+  margin-bottom: 50px;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+  border: 2px solid #1f98e4;
+  transition: all .5s;
+
+}
+
+.US-description-icon:hover {
+  box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+
+.US-description {
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+  color: #464646;
+  gap: 20px;
+  font-size: 1.4rem;
+}
+
+.US-label-button {
+  display: flex;
+  flex-direction: column;
+}
+
+.US-link {
+  color: rgb(0, 81, 255);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.US-statistics {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  width: 100%;
+}
+
+.US-statistics h1 {
+  margin-bottom: 50px;
+  font-size: 3rem;
+  color: #464646;
+  font-weight: 600;
+}
+
+.US-addGroup-radio {
+  width: 100%;
+  display: flex;
+  gap: 40px;
+  margin-bottom: 25px;
+  font-weight: 700;
+  color: #464646;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.US-uploadButton {
+  all: unset;
+  padding: 6px 13px;
+  background-color: rgb(94, 212, 129);
+  cursor: pointer;
+  color: white;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+  transition: 0.3s all;
+}
+
+.US-uploadButton:hover {
+  background-color: rgb(42, 167, 79);
+}
+
+.US-selectFile {
+  display: none;
+}
+
+.US-radio-file {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.US-radio-group {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+}
+
+.US-radio {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.US-radio-group label {
+  margin-right: 10px;
+}
+
+.US-file-group {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+}
+
+.US-remove-file {
+  all: unset;
+  display: flex;
+  align-items: center;
+}
+
+.US-file-name {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 200px;
+}
+
+.US-description-icon i {
+  font-size: 9rem;
+  color: #383838;
+}

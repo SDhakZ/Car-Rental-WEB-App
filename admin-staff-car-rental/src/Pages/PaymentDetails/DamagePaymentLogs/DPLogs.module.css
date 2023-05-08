@@ -1,0 +1,112 @@
+.DPL-main-container {
+    padding: 70px 120px;
+}
+
+.DPL-insert-btn {
+    float: right;
+    margin-bottom: 30px;
+    font-size: 1.4rem;
+    padding-right: 17px;
+    margin-left: 18px;
+}
+
+
+
+.DPL-table-row th {
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial;
+    -webkit-user-select: none;
+    /* Safari */
+    -ms-user-select: none;
+    /* IE 10 and IE 11 */
+    user-select: none;
+    /* Standard syntax */
+}
+
+.DPL-table-data-row td {
+    font-size: 1.1rem;
+}
+
+.DPL-action-col {
+    width: 160px;
+}
+
+.DPL-btn,
+.DPL-cp-btn {
+    padding: 5px 13px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-left: 13px;
+    color: white;
+}
+
+.DPL-cp-btn {
+    background-color: #ebb607;
+}
+
+.DPL-cp-btn:hover {
+    background-color: #b68500;
+}
+
+.DPL-id-col {
+    width: 70px;
+}
+
+.DPL-table-data-row td {
+    white-space: nowrap;
+    overflow: auto;
+}
+
+
+
+
+.DPL-plus {
+    margin-right: 5px;
+}
+
+.DPL-form-group {
+    margin-bottom: 10px;
+
+}
+
+.DPL-sort {
+    all: unset;
+}
+
+.DPL-table-row th {
+    cursor: pointer;
+}
+
+.DPL-filter-container {
+    display: flex;
+    gap: 30px;
+    align-items: flex-end;
+    height: 40px;
+}
+
+.DPL-filter {
+    display: flex;
+    gap: 15px;
+    font-weight: 600;
+}
+
+.DPL-filter-container {
+    display: flex;
+    gap: 15px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.DPL-filter-select {
+    padding: 5px 0px;
+    border-radius: 3px;
+    width: 320px;
+}
+
+.DPL-table-data-row td i {
+    margin-left: 0px;
+}

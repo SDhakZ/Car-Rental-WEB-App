@@ -1,0 +1,65 @@
+.F-form {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    width: 100%;
+    padding: 5px 20px 20px;
+  
+  }
+  
+  .F-form-sections {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    width: 100%;
+  
+  }
+  
+  .my-modal {
+    width: 4000px;
+  }
+  
+  
+  .F-validation {
+    color: red;
+    margin-bottom: 0;
+  
+  }
+  
+  .F-label {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  
+  .F-field-container {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+  }
+  
+  .F-label-error {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .F-field {
+    all: unset;
+    padding: 6px 10px;
+    outline: 2px solid #838383;
+    border-radius: 5px;
+    color: rgb(26, 26, 26);
+    font-size: 1rem;
+  }  
+
+  .F-field-password {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .F-textarea{
+    height: 200px;
+    padding: 10px;
+  }

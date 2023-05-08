@@ -1,0 +1,121 @@
+.DR-main-container {
+    padding: 70px 120px;
+}
+
+.DR-insert-btn {
+    float: right;
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+    padding-right: 17px;
+    margin-left: 18px;
+}
+
+
+
+.DR-table-row th {
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial;
+    -webkit-user-select: none;
+    /* Safari */
+    -ms-user-select: none;
+    /* IE 10 and IE 11 */
+    user-select: none;
+    /* Standard syntax */
+}
+
+.DR-table-data-row td {
+    font-size: 1.1rem;
+}
+
+.DR-action-col {
+    width: 450px;
+}
+
+
+.DR-action-div {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+
+.DR-btn,
+.DR-cp-btn {
+    width: 100%;
+    padding: 5px 13px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 13px;
+    color: white;
+}
+
+.DR-cp-btn {
+    background-color: #f8ae0f;
+}
+
+.DR-cp-btn:hover {
+    color: white;
+    background-color: #daa20b;
+}
+
+.DR-id-col {
+    width: 70px;
+}
+
+.DR-table-data-row td {
+    white-space: nowrap;
+    overflow: auto;
+}
+
+.DR-table-data-row td:nth-child(6) {
+    max-width: 100px;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+}
+
+.DR-plus {
+    margin-right: 5px;
+}
+
+.DR-form-group {
+    margin-bottom: 10px;
+
+}
+
+.DR-sort {
+    all: unset;
+}
+
+.DR-table-row th {
+    cursor: pointer;
+}
+
+.DR-filter-container {
+    display: flex;
+    gap: 30px;
+    align-items: flex-end;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.DR-filter {
+    display: flex;
+    gap: 15px;
+    font-weight: 600;
+}
+
+
+.DR-filter {
+    display: flex;
+    gap: 15px;
+    font-weight: 600;
+}
+
+.DR-filter-select {
+    padding: 5px 0px;
+    border-radius: 3px;
+    width: 320px;
+}

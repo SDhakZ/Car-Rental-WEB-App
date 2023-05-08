@@ -1,0 +1,49 @@
+.ED-main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 700px;
+    width: 100%;
+}
+
+.ED-img {
+    width: 150px
+}
+
+.ED-attr {
+    font-size: 0.8rem;
+    display: none
+}
+
+.ED-btn-container {
+    height: 40px;
+}
+
+.ED-btn {
+    all: unset;
+    cursor: pointer;
+    padding: 5px 10px;
+    color: #2a3f77;
+    border: 2px solid #2a3f77;
+
+    border-radius: 4px;
+    font-size: 1.1rem;
+
+    font-weight: 600;
+    transition: all 0.4s ease;
+    margin-top: 10px;
+}
+
+.refresh {
+    transition: all 0.4s ease;
+}
+
+.ED-btn:hover {
+    border: 2px solid #3634df;
+    color: #3634df;
+}
+
+.ED-btn:hover .refresh {
+    transform: rotate(380deg);
+}

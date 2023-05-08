@@ -1,0 +1,37 @@
+.AU-main-container {
+    padding: 60px 120px;
+}
+
+.AU-filter-container {
+    display: flex;
+    gap: 30px;
+    align-items: flex-end;
+    height: 40px;
+    margin-bottom: 30px;
+}
+
+.AU-filter-select {
+    padding: 5px 0px;
+    border-radius: 3px;
+    width: 320px;
+}
+
+.AU-table-row th {
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial;
+    -webkit-user-select: none;
+    /* Safari */
+    -ms-user-select: none;
+    /* IE 10 and IE 11 */
+    user-select: none;
+    /* Standard syntax */
+}
+
+.AU-table-data-row td {
+    font-size: 1.1rem;
+}
+
+.AU-table-data-row span {
+    color: red;
+}

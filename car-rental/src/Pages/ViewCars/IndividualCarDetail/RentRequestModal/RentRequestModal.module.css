@@ -1,0 +1,145 @@
+.RRM-title {
+  background-color: #109FDC;
+  font-size: 1.8rem;
+  color: white;
+  font-weight: 700;
+  width: 100%;
+  padding: 10px 20px;
+  overflow: hidden;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.RRM-form {
+  padding: 0px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.RRM-form-message {
+  font-size: 1.2rem;
+  color: rgb(81, 81, 81);
+}
+
+.RRM-form-dates {
+  display: flex;
+  gap: 40px;
+  width: 100%;
+}
+
+.RRM-form-date {
+  width: 100%;
+
+}
+
+.RRM-discount-price {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 1.2rem;
+  margin-top: 15px;
+}
+
+.RRM-discount span {
+  color: #00AED4;
+}
+
+.RRM-price span {
+  color: #008244;
+}
+
+.RRM-dis-price {
+  color: #00AED4;
+}
+
+.RRM-addGroup-radio {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  font-weight: 700;
+  color: #464646;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.RRM-uploadImage {
+  all: unset;
+  padding: 10px 20px;
+  background-color: rgb(94, 212, 129);
+  cursor: pointer;
+  color: white;
+  border-radius: 5px;
+}
+
+.RRM-selectFile {
+  display: none;
+}
+
+.RRM-radio-file {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.RRM-radio-group {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+}
+
+.RRM-radio {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.RRM-radio-group label {
+  margin-right: 10px;
+}
+
+.RRM-file-group {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+}
+
+.RRM-remove-file {
+  all: unset;
+  display: flex;
+  align-items: center;
+}
+
+.RRM-file-name {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 200px;
+}
+
+.RRM-alt-modal {
+  display: flex;
+  flex-direction: column;
+  min-height: fit-content;
+  gap: 10px;
+}
+
+.RRM-alt-modal p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #464646;
+  padding: 25px 30px;
+  line-height: 33px;
+}
+
+.RRM-signin-button {
+  font-size: 1.2rem;
+  background-color: #109FDC;
+  color: white;
+  padding: 3px 10px;
+  border-radius: 5px;
+}

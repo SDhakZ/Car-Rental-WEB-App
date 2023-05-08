@@ -1,0 +1,129 @@
+.UM-main-container {
+    padding: 60px 120px;
+}
+
+.UM-secondary-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 100%;
+}
+
+.UM-card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    width: 100%;
+}
+
+.UM-card-group {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+/* Core Part*/
+.UM-card {
+    /* Positioning */
+    position: relative;
+    /* Display & Box Model */
+    width: 450px;
+    padding: 40px;
+    overflow: hidden;
+    /* Other */
+    background-color: white;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+
+}
+
+.UM-card:before {
+    content: "";
+    /* Positioning */
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    bottom: calc(-100% + 5px);
+    /* Display & Box Model */
+    width: 100%;
+    height: 100%;
+    /* Other */
+    background-color: #097abb;
+    transition: 0.5s;
+}
+
+/* Styles to trigger when card is on hover */
+.UM-card:hover:before {
+    /* Positioning */
+    bottom: 0;
+}
+
+.UM-card:hover .UM-card-content,
+.UM-card:hover .UM-icon,
+.UM-card:hover .UM-header {
+    /* Other */
+    color: white;
+}
+
+/* ---------------------------------------- */
+
+.UM-card .UM-card-content {
+    /* Positioning */
+    position: relative;
+    z-index: 2;
+    /* Other */
+    color: #777;
+    transition: 0.5s;
+}
+
+/* Card header settings */
+.UM-header {
+    /* Display & Box Model */
+    margin-bottom: 10px;
+    margin-top: 0;
+    /* Other */
+    font-size: 30px;
+    color: #2f6779;
+}
+
+.UM-icon,
+.UM-header {
+    color: #2f4f79;
+    transition: 0.5s;
+}
+
+/* Card paragraph settings */
+.UM-card p {
+    /* Other */
+    font-size: 1.0rem;
+    line-height: 28px;
+    font-family: "Inter";
+    font-weight: 500;
+    text-align: justify;
+}
+
+/* Card button settings */
+.UM-card a {
+    /* Display & Box Model */
+    margin-top: 10px;
+    display: inline-block;
+    padding: 6px 10px;
+    /* Other */
+    text-decoration: none;
+    color: #777;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: white;
+    box-shadow: 0px 0px 4px 1px #6298d1;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.UM-card a:hover {
+    /* Other */
+    color: rgb(255, 43, 36);
+}

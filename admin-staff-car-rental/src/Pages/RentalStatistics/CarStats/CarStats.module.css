@@ -1,0 +1,110 @@
+.CS-main-container {
+    padding: 70px 120px;
+}
+
+.CS-insert-btn {
+    float: right;
+    margin-bottom: 30px;
+    font-size: 1.4rem;
+    padding-right: 17px;
+    margin-left: 18px;
+}
+
+
+.CS-table-row th {
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial;
+    -webkit-user-select: none;
+    /* Safari */
+    -ms-user-select: none;
+    /* IE 10 and IE 11 */
+    user-select: none;
+    /* Standard syntax */
+}
+
+.CS-table-data-row td {
+    font-size: 1.1rem;
+}
+
+.CS-action-col {
+    width: 160px;
+}
+
+.CS-btn,
+.CS-cp-btn {
+    padding: 5px 13px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-left: 13px;
+    color: white;
+}
+
+.CS-cp-btn {
+    background-color: #ebb607;
+}
+
+.CS-cp-btn:hover {
+    background-color: #b68500;
+}
+
+.CS-id-col {
+    width: 70px;
+}
+
+
+.CS-table-data-row td:nth-child(4) {
+    max-width: 120px;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+
+
+.CS-plus {
+    margin-right: 5px;
+}
+
+.CS-form-group {
+    margin-bottom: 10px;
+
+}
+
+.CS-sort {
+    all: unset;
+}
+
+.CS-table-row th {
+    cursor: pointer;
+}
+
+.CS-filter-container {
+    display: flex;
+    gap: 30px;
+    align-items: flex-end;
+    height: 40px;
+    margin-bottom: 30px;
+}
+
+.CS-filter {
+    display: flex;
+    gap: 15px;
+    font-weight: 600;
+}
+
+.CS-filter-select {
+    padding: 0px 10px;
+    border-radius: 3px;
+    width: 320px;
+}
+
+.CS-graph {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
